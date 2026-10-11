@@ -1,0 +1,54 @@
+# Dependencies and generated builds
+node_modules/
+target/
+build/
+dist/
+coverage/
+
+# IDE settings
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+!.env.*.example
+application-local.properties
+application-local.yml
+application-local.yaml
+application-secrets.properties
+application-secrets.yml
+application-secrets.yaml
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Logs and temporary files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.tmp
+*.swp
+*~
+
+# Local database files
+*.mv.db
+*.trace.db
+*.h2.db
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Keep source configuration, lockfiles and Maven wrapper tracked.
+# Never place real credentials in tracked application.properties.
